@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    background-color: #ebe7e7;
+  }
+ 
+ 
+.btn-col{
+    /* border: 2px solid red; */
+    justify-content: end;
+    text-align: right;
+    align-items: right;
+    display: flex;
+    padding: 25px
+    
+    
+}
+.btn-col2{
+    justify-content: start;
+    text-align: left;
+    align-items: left;
+   
+}
+.btn-1st{
+    
+    background-color: rgb(19, 180, 233);
+    width: 240px;
+    height: 45px;
+    border-radius: 6px;
+    color: white;
+    font-size: 21px;
+    border: 2px solid  rgb(19, 180, 233);
+
+}
+.btn-2nd{
+    background-color: rgb(68, 86, 255);
+    border: 2px solid  rgb(68, 86, 255);
+}
+.card{
+    
+    background-color: rgb(254, 254, 254);
+    border: 1px solid rgb(236, 233, 226);
+    box-shadow: 2px 2px rgb(236, 233, 226);
+}
+
+.viewprofile{
+    
+    background-color: rgb(19, 180, 233);
+    width: 170px;
+    height: 35px;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid  rgb(19, 180, 233);
+
+}
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+    /* Removes the border of the table */
+  }
+
+  .space-row {
+    height: 20px;
+    background-color: transparent;
+  }
+
+  @media (max-width: 3400px) and (min-width:992px) {
+    .navbar-brand img {
+        margin-left: 22px;
+        width: 90px;
+        height: 50px;
+        object-fit: contain;
+        max-width: 100%;
+    }
+  }
+
+  @media (max-width: 992px) and (min-width: 200px){
+
+    .navbar-brand img {
+      margin-left: 22px;
+      object-fit: contain;
+      max-width: 100%;
+      margin-top: 13px;
+      padding-right: 10px;
+  }
+  }
+  /* Media Qurey Ends */
+  .item-lang a {
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 1px;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 2px;
+    /* border: 1px solid rgb(149, 158, 247); */
+    width: 100px;
+    padding: 2px;
+  }
+  
+  
